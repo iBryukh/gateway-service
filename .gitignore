@@ -1,6 +1,4 @@
-/target
 /target/
-**/target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -13,7 +11,7 @@
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea/
+.idea
 *.iws
 *.iml
 *.ipr
@@ -26,14 +24,7 @@
 /.nb-gradle/
 /build/
 
-# Java class files
-*.class
-
-# Eclipse project files
-.classpath
-.project
-.settings/
-
-.DS_Store/
-/target
-.DS_Store
+### Maven wrapper ###
+mvnw
+*.cmd
+.mvn/
