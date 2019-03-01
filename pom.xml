@@ -31,6 +31,14 @@
 			<url>${myMavenRepoWriteUrl}</url>
 		</snapshotRepository>
 	</distributionManagement>
+
+	<repositories>
+		<repository>
+			<id>myMavenRepo</id>
+			<url>${myMavenRepoWriteUrl}</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<!-- Without this dependency service just not bootable -->
 		<dependency>
