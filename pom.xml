@@ -11,6 +11,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<myMavenRepoWriteUrl>https://mymavenrepo.com/repo/49q5oQAutyTl718Nu7gQ/</myMavenRepoWriteUrl>
+		<commonUtil.version>1.3</commonUtil.version>
 	</properties>
 
 	<parent>
@@ -69,7 +70,7 @@
 		<dependency>
 			<groupId>com.smarthouse</groupId>
 			<artifactId>common-util</artifactId>
-			<version>1.0</version>
+			<version>${commonUtil.version}</version>
 		</dependency>
 
 		<!-- Allows to bootstrap Spring context before executing tests -->
