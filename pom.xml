@@ -53,6 +53,12 @@
 	</repositories>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-zuul</artifactId>
+		</dependency>
+
 		<!-- Without this dependency service just not bootable -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -64,13 +70,6 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 			<version>2.1.0.RELEASE</version>
-		</dependency>
-
-		<!-- Common smart house library -->
-		<dependency>
-			<groupId>com.smarthouse</groupId>
-			<artifactId>common-util</artifactId>
-			<version>${commonUtil.version}</version>
 		</dependency>
 
 		<!-- Allows to bootstrap Spring context before executing tests -->
