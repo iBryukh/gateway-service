@@ -72,19 +72,6 @@
 			<version>2.1.0.RELEASE</version>
 		</dependency>
 
-		<!-- Allows to bootstrap Spring context before executing tests -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<!-- Java DSL for testing REST services -->
-		<dependency>
-			<groupId>com.jayway.restassured</groupId>
-			<artifactId>rest-assured</artifactId>
-			<version>2.8.0</version>
-			<scope>test</scope>
-		</dependency>
 		<!-- JSON -->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
