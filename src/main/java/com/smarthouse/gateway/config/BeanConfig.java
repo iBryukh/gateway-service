@@ -1,5 +1,6 @@
 package com.smarthouse.gateway.config;
 
+import com.smarthouse.gateway.filters.FilterUtils;
 import com.smarthouse.gateway.utils.UserContext;
 import com.smarthouse.gateway.utils.UserContextFilter;
 import com.smarthouse.gateway.utils.UserContextInterceptor;
@@ -14,6 +15,12 @@ import java.util.List;
 
 @Configuration
 public class BeanConfig {
+
+    @Bean
+    public FilterUtils getFilterUtils() {
+        return new FilterUtils();
+    }
+
     @Bean
     public UserContext getUserContext() {
         return new UserContext();
