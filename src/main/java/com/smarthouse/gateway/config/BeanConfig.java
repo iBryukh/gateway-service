@@ -1,9 +1,9 @@
 package com.smarthouse.gateway.config;
 
-import com.smarthouse.gateway.filters.FilterUtils;
-import com.smarthouse.gateway.utils.UserContext;
-import com.smarthouse.gateway.utils.UserContextFilter;
-import com.smarthouse.gateway.utils.UserContextInterceptor;
+import com.smarthouse.commonutil.contexts.UserContext;
+import com.smarthouse.commonutil.contexts.UserContextFilter;
+import com.smarthouse.commonutil.contexts.UserContextInterceptor;
+import com.smarthouse.commonutil.filters.FilterUtils;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
