@@ -38,7 +38,7 @@ public class BeanConfig {
         List interceptors = template.getInterceptors();
         if (interceptors == null) {
             template.setInterceptors(
-                    Collections.<ClientHttpRequestInterceptor>singletonList(new UserContextInterceptor())
+                    Collections.singletonList(new UserContextInterceptor())
             );
         } else {
             interceptors.add(new UserContextInterceptor());
