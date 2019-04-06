@@ -16,3 +16,4 @@ zuul:
     user-service: /user-service/**
     device-service: /device-service/**
   ignored-services: '*'
+  sensitiveHeaders: Cookie,Set-Cookie
